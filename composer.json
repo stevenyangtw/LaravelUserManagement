@@ -54,7 +54,7 @@
     "repositories": [
     {
         "type": "vcs",
-        "url": "https://github.com/stevenyangtw/LaravelUserManagement.git"
+        "url": "git@github.com:stevenyangtw/LaravelUserManagement.git"
     }
 ],
 }
