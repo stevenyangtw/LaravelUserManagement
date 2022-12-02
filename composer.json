@@ -1,5 +1,5 @@
 {
-    "name": "steveyangtw/laravel-user-management",
+    "name": "stevenyangtw/laravel-user-management",
     "description": "With this package we can manage all of the users in our project.",
     "type": "project",
     "homepage": "https://mekaeil.me",
@@ -13,7 +13,8 @@
     "require": {
         "php": "^7.2.5",
         "laravel/framework": "^5.5|^6.0|^7.0|^8.0|^9.0",
-        "spatie/laravel-permission": "^2.37|^3.0|^5.7"
+        "spatie/laravel-permission": "^2.37|^3.0|^5.7",
+        "stevenyangtw/laravel-user-management":"dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.5|^8.0",
@@ -49,5 +50,11 @@
                 "Stevenyangtw\\LaravelUserManagement\\LaravelUserManagementProvider"
             ]
         }
+    },
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/stevenyangtw/LaravelUserManagement"
     }
+],
 }
